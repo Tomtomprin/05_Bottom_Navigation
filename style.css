@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.bottom_navigation_wrapper {
+    position: fixed;
+    bottom: 0;
+    /* width: 100%; */
+
+}
+
+.bottom_navigation_wrapper,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+}
+
+li {
+    flex: 1;
+}
